@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Muller ExtraBold DEMO';
+	src: url('fonts/muller_extrabold_demo.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/muller_extrabold_demo.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/muller_extrabold_demo.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/muller_extrabold_demo.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/muller_extrabold_demo.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/muller_extrabold_demo.svg#muller_extrabold_demo') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+h1{
+    color:gold;
+}
+
+h2{
+    color:hotpink;
+}
+
+a:hover{
+    color:darkgreen;
+}
+
+img{
+    border: 5px solid rgb(245, 0, 0)
+}
+
+.name{
+    font-size: 19px;
+    text-shadow: 12px 12px 0px rgba(58, 16, 131, 0.2);
+    font-family: 'Muller ExtraBold DEMO';
+}
+
+p{
+    font-size: 20px;
+}
+
+.quality{
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-size: 19px;
+}
+
+body{
+    background-color:lightgoldenrodyellow
+}
